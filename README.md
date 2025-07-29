@@ -1,18 +1,17 @@
 
-<h1> Unicorn Academy Project - Analyzing INE statistics <h1>
+<h1> Unicorn Academy Project - Formule One SQL <h1>
  <img src="https://raw.githubusercontent.com/HannerRoag/Project_Unicorn_Python/refs/heads/main/svg/made-with-jupyter---sql.svg" alt="Made with Jupyter">
  <img src="https://raw.githubusercontent.com/HannerRoag/Project_Unicorn_Python/refs/heads/main/svg/guided-project-unicorn-academy.svg" alt="Guided Project"> <br/>
 <br/>
 <h3>1. Data source</h3> 
- INE - National Institute of statistics of Spain
+ FORMULA ONE
  
 ### 2. Objectives
 #### 2.1 Main objective
-- Using external information, development knowledge using python.
+- Using external information, development knowledge using SQL.
 #### 2.2. Specific objetives 
-- Development libraries and methods on Python.
-- Analyze information provided for INE.
-- Visualyze relevant information.
+- Answer business questions that Formula 1 management was asking.
+- Using methods as SELECT, FROM, WHERE, JOIN, LIMIT, GROUP BY, ORDER BY, STORE PROCEDURE, CASE.
 
 ### 3. Tecnologies
 ![SQL](https://img.shields.io/badge/-Sql-f29111?style=for-the-badge&logo=mysql)
