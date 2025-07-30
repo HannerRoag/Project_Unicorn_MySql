@@ -49,7 +49,7 @@
 ### 5. Development
 #### 5.1 Tables explorations
 Tables reviews
-1. Circuits table has 4 columns as CircuitId, CircuitRef, Name, Location, Country, lat, lng, alt, url
+1. Circuits table has 9 columns as CircuitId, CircuitRef, Name, Location, Country, lat, lng, alt, url
 2. Constructor_results table has 5 columns as constructorResultsId, raceId, ConstructorId, points, status
 3. Constructor table has 5 columns as ConstructorId, ConstructorRef, name, nationality and url.
 4. Constructor_Standings table has 7 columns as contructorStandingsId, raceId, ConstructorId, points, position, positionText, wins.
@@ -89,7 +89,7 @@ Development of each questions that it use some commands:
 22. SHOW ERRORS: Diagnostic statement.
     
 
-### 6. Conclusions of analysis
+### 6. Conclusions of development
 This project involved extracting information from an external data source and integrating it into a local environment using Jupyter. I was able to clean, modify, and adapt the data to answer key questions. I observed variation within the Spanish community over time. <br/>
 During the process, I encountered some challenges: the data was not in a clean format, and I had to manage the diversity of the datasets. I included both evident and less evident demographic information, such as gender, age, and customer type.<br/>
 I worked with three main data groups: total population, male population, and female population. I first analyzed overall population trends and then focused on gender-specific variations.<br/>
