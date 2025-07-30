@@ -4,7 +4,9 @@
  <img src="https://raw.githubusercontent.com/HannerRoag/Project_Unicorn_Python/refs/heads/main/svg/guided-project-unicorn-academy.svg" alt="Guided Project"> <br/>
 <br/>
 <h3>1. Data source</h3> 
- FORMULA ONE
+ Formula 1 World Championship (1950 - 2024) 
+ 
+ URL: https://www.kaggle.com/datasets/rohanrao/formula-1-world-championship-1950-2020
  
 ### 2. Objectives
 #### 2.1 Main objective
@@ -44,8 +46,8 @@
 2. Create a Stored Procedure (SP) that calculate the victorys numbers for a team in a given year.
 
 
-### 5. Development of analysis
-#### 5.1 Connection INE ![Jupyter](https://img.shields.io/badge/-Jupyter-white?style=for-the-badge&logo=Jupyter)
+### 5. Development
+#### 5.1 Validation of each tables ![Jupyter](https://img.shields.io/badge/-Jupyter-white?style=for-the-badge&logo=Jupyter)
 The connection is established with an external data source, the connection is adjusted to the required of the data source.
 - Import libraries as pandas, requests, datetime.
 - Function that take a code INE, connection and return a Json with requested data.
