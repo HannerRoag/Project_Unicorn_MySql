@@ -47,26 +47,47 @@
 
 
 ### 5. Development
-#### 5.1 Validation of each tables ![Jupyter](https://img.shields.io/badge/-Jupyter-white?style=for-the-badge&logo=Jupyter)
-The connection is established with an external data source, the connection is adjusted to the required of the data source.
-- Import libraries as pandas, requests, datetime.
-- Function that take a code INE, connection and return a Json with requested data.
-- Read the archive with the serie code of INE.
-- Take the attributes of each data serie.
-- Make the dataframe with data lists.
-#### 5.2 Daraframe exploration ![Jupyter](https://img.shields.io/badge/-Jupyter-white?style=for-the-badge&logo=Jupyter)
-- Use the methods as .rename(), .max(), .min(), .mean(), .unique(), .split(), .groupby(), .agg(), .transform(), .apply(). <br/>
-.info(), .year(), .month(), .to_dataframe(), .dir(), .shift(), .assign(), .columns(), .loc(), .cut(), .sample().
-#### 5.3. DDSS Connection ![SQL](https://img.shields.io/badge/-Sql-f29111?style=for-the-badge&logo=mysql) ![Jupyter](https://img.shields.io/badge/-Jupyter-white?style=for-the-badge&logo=Jupyter)
-- Import or libraries as mysql-connect-python, pymysql, sqlalchemy.
-- Configuration of connection.
-- Consult data sources.
-- Make connections.
-- Close connection.
-- Save dataframe as .csv using method .to_csv().
-#### 5.4 Visualization in python ![Jupyter](https://img.shields.io/badge/-Jupyter-white?style=for-the-badge&logo=Jupyter)
-- Import libraries as os, numpy, pandas, datetime, matplotlib.piplot, seaborn.
-- Use methods as .read_csv(), .info(), .to_datatime(), .plot(), .figure(), .show(), .xlabel(), .ylabel(), .title().
+#### 5.1 Tables explorations
+Tables reviews
+1. Circuits table has 4 columns as CircuitId, CircuitRef, Name, Location, Country, lat, lng, alt, url
+2. Constructor_results table has 5 columns as constructorResultsId, raceId, ConstructorId, points, status
+3. Constructor table has 5 columns as ConstructorId, ConstructorRef, name, nationality and url.
+4. Constructor_Standings table has 7 columns as contructorStandingsId, raceId, ConstructorId, points, position, positionText, wins.
+5. Drivers table has 9 columns as driverId, driverRef, number, code, forename, surname, dob, nationality, url.
+6. Drivers_Standings table has 7 columns as driversStandingsId, raceId, driverId, points, position, positionText, wins.
+7. Pit_stops table has 7 columns as raceIde, driverId, stop, lap, time, duration, milliseconds.
+8. Qualifying table has 9 columns as qualifyId, raceId, driverId, constructorId, number position, q1, q2, q3.
+9. Race table has 18 columns as raceId, year, round, circuitId, name, date, time, url, fp1_date, fp1_time, fp2_date, fp2_time, fp3_date, fp3_time, quali_date, quali_time, spring_date, spring_time.
+10. Results table has 18 columns as resultId, raceId, driversId, constructorId, number, grid, position, positionText, positionOrder, points, laps, time, milliseconds, fatestlap, rankvalue, fastestlaptime, fastestlapspeed, statusId.
+11. Seasons table has 2 columns as year, url.
+12. Sprint_results has 16 columns as resultId, raceId, driverId, constructorId, number, grid, position, positionText, positionOrder, points, laps, time, milliseconds, fastestlap, fastestlaptime, statusId.
+13. Status table has 2 columns as statusId, status.
+
+#### 5.2 Commands used
+Development of each questions that it use some commands:
+1. SELECT: Query and retrieve data from database tables.
+2. COUNT: Return the number of rows that matches a specified criterion.
+3. JOIN: Combine rows from two more tables based an related columns.
+4. FROM: used to specify which table to select or delete data from.
+5. WHERE: used to filter records.
+6. GROUP BY: regroup rows that have the same values into summary rows.
+7. ORDER BY: used to sort the result-set in ascending or descending.
+8. LIMIT: used in several context to restrict the amount or scope of something.
+9. MIN(): function returns the smallest value of the select column.
+10. MAX(): function returns the largest value of the select column.
+11. ROUND(): used to round a number to a specified number of decimal places or to the nearest integer.
+12. AVG(): function returns a number to a specified numberof decimal places or to the nearest integer.
+13. DESC: used to sort the data returned in descending order.
+14. ASC: used to sort the data returned in ascending order.
+15. FORMAT(): function to formant date/time values in a list.
+16. COALESCE(): function returns the first non-null value in a list.
+17. RANK(): function to specify rank for individual fields as per the categorizations.
+18. DENSE_RANK(): computes the rank of a row in an ordered group of rows and returns the rank as a number.
+19. CASE: The CASE expression goes through conditions and returns a value when the first condition is met (like on if-then-else statement).
+20. DELIMITER: used to specify a custom delimiter character that is used to mark the end of a SQL statement.
+21. Stored proceduree (sp): It is a prepared SQL code that you can save, so the code can be reused over and over again.
+22. SHOW ERRORS: Diagnostic statement.
+    
 
 ### 6. Conclusions of analysis
 This project involved extracting information from an external data source and integrating it into a local environment using Jupyter. I was able to clean, modify, and adapt the data to answer key questions. I observed variation within the Spanish community over time. <br/>
