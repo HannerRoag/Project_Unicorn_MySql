@@ -15,11 +15,34 @@
 
 ### 3. Tecnologies
 ![SQL](https://img.shields.io/badge/-Sql-f29111?style=for-the-badge&logo=mysql)
-![Jupyter](https://img.shields.io/badge/-Jupyter-white?style=for-the-badge&logo=Jupyter)
-![Python](https://img.shields.io/badge/-Python-9370DB?style=for-the-badge&logo=Python)
+
 
 ### 4. Key question
-##### Do the trends for the male and female groups follow the same pattern?
+#### Part I - Answer for business questions.
+1. How many diferents circuits exist in the dataset?
+2. How many pilots have compited in F1 history?
+3. Which are the teams with the most victorys in the history?
+4. What has been the laptime average in each circuit?
+5. Which pilot has the most quantity of fast laps?
+6. How many races has been realized in each season?
+7. What has been the pits strategy more effective?
+8. Which pilot has obteined more pudiums in the history?
+9. Which have been the 5 pilots with the best average in finals positions?
+10. Which team has reached much quantity poles position?
+11. How many points have reached each team in a specific season?
+12. What is the circuit where it has produced more retirements?
+13. Which pilot has improved more positions since the departure in grid?
+14. Which are the teams with the largest quantity of doubles (1st and 2nd lap race)?
+15. Which have been the 5 GP with less difference between 1st and 2nd place?
+16. How many pilots have participated in each season?
+17. Ranking of 5 best pilots with more points in a season.
+18. Obtain the final position for each pilot in each race.
+19. How many points has obtained each team?
+20. Determine a driver's classification in a race.
+#### Part II - Automatization
+1. Create a view that translate the race status in spanish.
+2. Create a Stored Procedure (SP) that calculate the victorys numbers for a team in a given year.
+
 
 ### 5. Development of analysis
 #### 5.1 Connection INE ![Jupyter](https://img.shields.io/badge/-Jupyter-white?style=for-the-badge&logo=Jupyter)
