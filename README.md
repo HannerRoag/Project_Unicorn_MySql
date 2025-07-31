@@ -98,7 +98,7 @@ Using SQL, relevant questions were asking as: teams with more victorys, drivers 
 Since 2000 Ferrari, Red Bull and Mercedes were Desde el año 2000, Ferrari, Red Bull y Mercedes were emerging as contructors most dominant according victorys and acumulated points.
 Lewis Hamilton lead the victorys, points and podiums, while Max Verstappen has been the pilot most dominant in the last years.
 Specific trends was identified by circuit: some of them favor drivers or determined constructors, showing patrons of performance and terrain.
-#### 6.4. technical lessons
+#### 6.4. Technical lessons
 The project helped to take skills in SQL modeling and analitical queries with agregations (GROUP BY, SUM, AVG, COUNT) 
 
 
