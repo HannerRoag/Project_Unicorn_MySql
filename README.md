@@ -90,15 +90,17 @@ Development of each questions that it use some commands:
     
 
 ### 6. Conclusions of development
-This project involved extracting information from an external data source and integrating it into a local environment using Jupyter. I was able to clean, modify, and adapt the data to answer key questions. I observed variation within the Spanish community over time. <br/>
-During the process, I encountered some challenges: the data was not in a clean format, and I had to manage the diversity of the datasets. I included both evident and less evident demographic information, such as gender, age, and customer type.<br/>
-I worked with three main data groups: total population, male population, and female population. I first analyzed overall population trends and then focused on gender-specific variations.<br/>
-Although I validated the data using semiannual values, I faced some interpretation challenges—typical in analytical work. Eventually, I decided to restructure the data using decades instead of semiannual periods to make the insights clearer.<br/>
-After data cleaning, manipulation, analysis, and interpretation, I began to think about long-term improvements. If this data could be uploaded to a collaborative database, it would allow other users to work with clean, structured data. It's important to create backup files so users can return to specific stages of analysis. In the end, I transformed the dataset into a lightweight CSV archive for easier sharing and use.<br/>
-Finally, after checking the graph, I observed that from 1970 to 1980, there was a noticeable upward slope, indicating a faster growth rate. It was a period of strong growth, with the population rising from around 34 million to approximately 38 million—this was also confirmed numerically.<br/>
-Then, I noticed that the growth rate began to slow down. From 1980 to 1990, when analyzing by decade, the vertical change was minimal, showing almost no variation. This trend continued in the following decade, from 1990 to 2000. I also confirmed these patterns using the numerical data series.<br/>
-Later, I identified subtle nuances in the data, which helped me better understand the overall trend. It's important that graphs are always supported by numerical values, and vice versa—numbers should also be visualized through graphs.<br/>
-After the year 2000, I noticed a significant increase in growth. However, before 2010, the growth rate began to slow again, with the slope becoming less steep. Then, around 2020, the growth rate increased once more, and the slope became steeper again.
+#### 6.1. Quality and data preparation
+To allow a effective analysis, tables were normalized and primary and foreing keys were defined, guaranteeing referential integrity
+#### 6.2. Query and extraction of key insights.
+Using SQL, relevant questions were asking as: teams with more victorys, drivers more successfull, diferent between times and positions, pole positions, numbers of racing by circuit, etc. 
+#### 6.3. Main results and analysis of insights.
+Since 2000 Ferrari, Red Bull and Mercedes were Desde el año 2000, Ferrari, Red Bull y Mercedes were emerging as contructors most dominant according victorys and acumulated points.
+Lewis Hamilton lead the victorys, points and podiums, while Max Verstappen has been the pilot most dominant in the last years.
+Specific trends was identified by circuit: some of them favor drivers or determined constructors, showing patrons of performance and terrain.
+#### 6.4. technical lessons
+The project helped to take skills in SQL modeling and analitical queries with agregations (GROUP BY, SUM, AVG, COUNT) 
+
 
 ### 7. Acknowledgements
-Almudena Alcázar de Velasco, Jesús Adraz, Cristian Lavia, Yohana Lopez, Caterina Abanoni and Unicorn Academy team.
+Jesús Adraz, Cristian Lavia, Yohana Lopez, Caterina Abanoni and Unicorn Academy team.
