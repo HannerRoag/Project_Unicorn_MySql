@@ -63,7 +63,7 @@ Tables reviews
 12. Sprint_results has 16 columns as resultId, raceId, driverId, constructorId, number, grid, position, positionText, positionOrder, points, laps, time, milliseconds, fastestlap, fastestlaptime, statusId.
 13. Status table has 2 columns as statusId, status.
 
-#### 5.2 Commands
+#### 5.2 Commands ![SQL](https://img.shields.io/badge/SQL-MySQL-blue?logo=mysql&logoColor=white)
 Development of each questions that it use some commands:
 1. SELECT: Query and retrieve data from database tables.
 2. COUNT: Return the number of rows that matches a specified criterion.
@@ -88,7 +88,7 @@ Development of each questions that it use some commands:
 21. Stored proceduree (sp): It is a prepared SQL code that you can save, so the code can be reused over and over again.
 22. SHOW ERRORS: Diagnostic statement.
 
-#### 5.3 Libraries
+#### 5.3 Libraries ![Python](https://img.shields.io/badge/Jupyter-Python?style=flat&logo=python&logoColor=%233776AB&label=Python&labelColor=white&color=%23F37626)
 1. ipython-sql
 2. alchemy
 3. pandas
