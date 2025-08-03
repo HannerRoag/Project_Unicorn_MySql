@@ -17,10 +17,7 @@
 
 ### 3. Tecnologies
 ![SQL](https://img.shields.io/badge/SQL-MySQL-blue?logo=mysql&logoColor=white)
-![Static Badge](https://img.shields.io/badge/Jupyter-Python?style=flat&logo=python&logoColor=%233776AB&label=Python&labelColor=white&color=%23F37626)
-
-
-
+![Python](https://img.shields.io/badge/Jupyter-Python?style=flat&logo=python&logoColor=%233776AB&label=Python&labelColor=white&color=%23F37626)
 
 ### 4. Key question
 #### Part I - Answer for business questions.
@@ -66,7 +63,7 @@ Tables reviews
 12. Sprint_results has 16 columns as resultId, raceId, driverId, constructorId, number, grid, position, positionText, positionOrder, points, laps, time, milliseconds, fastestlap, fastestlaptime, statusId.
 13. Status table has 2 columns as statusId, status.
 
-#### 5.2 Commands used
+#### 5.2 Commands
 Development of each questions that it use some commands:
 1. SELECT: Query and retrieve data from database tables.
 2. COUNT: Return the number of rows that matches a specified criterion.
@@ -90,6 +87,12 @@ Development of each questions that it use some commands:
 20. DELIMITER: used to specify a custom delimiter character that is used to mark the end of a SQL statement.
 21. Stored proceduree (sp): It is a prepared SQL code that you can save, so the code can be reused over and over again.
 22. SHOW ERRORS: Diagnostic statement.
+
+#### 5.3 Libraries
+1. ipython-sql
+2. alchemy
+3. pandas
+4. prettytable==3.9.0
     
 
 ### 6. Conclusions of development
