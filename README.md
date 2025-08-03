@@ -17,6 +17,8 @@
 
 ### 3. Tecnologies
 ![SQL](https://img.shields.io/badge/SQL-MySQL-blue?logo=mysql&logoColor=white)
+![Static Badge](https://img.shields.io/badge/Jupyter-Python?style=flat&logo=python&logoColor=%233776AB&label=Python&labelColor=white&color=%23F37626)
+
 
 
 
