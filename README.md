@@ -16,7 +16,8 @@
 - Using methods as SELECT, FROM, WHERE, JOIN, LIMIT, GROUP BY, ORDER BY, STORE PROCEDURE, CASE.
 
 ### 3. Tecnologies
-![SQL](https://img.shields.io/badge/-Sql-f29111?style=for-the-badge&logo=mysql)
+![SQL](https://img.shields.io/badge/SQL-MySQL-blue?logo=mysql&logoColor=white)
+
 
 
 ### 4. Key question
